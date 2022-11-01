@@ -1,0 +1,108 @@
+html {
+    background-color: mistyrose;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 87;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 239, 214);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    color: bold black;
+    text-align: center;
+    font-size: larger;
+    color: rgb(204, 28, 28);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: brown;
+}
+
+header p span {
+    color: chocolate;
+}
+
+.highlight {
+    color: aquamarine;
+    background-color: darkgoldenrod;
+}
+
+.highlight2 {
+    color: rgb(204, 28, 28);
+    background-color: rgb(14, 13, 12);
+}
+
+.highlight3 {
+    color: rgb(37, 19, 19);
+    background-color: rgb(187, 112, 37);
+}
+
+.brand-color {
+    color: gold;
+    background-color: blue;
+}
+.content-area {
+    border-top: 3px solid rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.highlight {
+    color: aquamarine;
+    background-color: darkgoldenrod;
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: “ “;
+    display: table;
+}
+
+.group:after {
+clear: both;
+}
